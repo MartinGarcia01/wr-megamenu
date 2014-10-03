@@ -3,10 +3,10 @@ Contributors: WooRockets
 
 Tags: admin, advanced, content, easy to use, editor, element, mega menu, menu builder, page,plugin, Post, responsive, visual, widget
 
-WR MegaMenu is a Powerful, Responsive, and User-Oriented WordPress menu plugin with a Dedicated, Intuitive menu builder. 
+WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin with a Dedicated, Intuitive menu builder. 
 
 == Description ==
-WR MegaMenu is a Powerful, Responsive, and User-Oriented WordPress menu plugin with a Dedicated, Intuitive menu builder. It gives you a complete control at designing and customizing your menu exactly the way you want.
+WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin with a Dedicated, Intuitive menu builder. It gives you a complete control at designing and customizing your menu exactly the way you want.
 
 <h4>Main Features:</h4>
 * <b>Dedicated & Intuitive Menu Builder</b>: Our user-friendly menu builder will take away the hassles that come with Wordpress default menu configuration panel.
