@@ -24,7 +24,7 @@ WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin 
 
 <h4>Support</h4>
 
-* <a href="http://support.woorockets.com">Support Forum</a>
+* <a href="http://www.woorockets.com/forum/">Support Forum</a>
 * <a href="http://www.woorockets.com/docs/wr-megamenu-user-manual/">Documentation</a>
 
 <i>*If you like the plugin, please vote for it!*</i>
