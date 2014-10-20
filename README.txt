@@ -1,5 +1,6 @@
 === WR Mega Menu ===
-Contributors: WooRockets
+
+Contributors: woorockets
 
 Tags: admin, advanced, content, easy to use, editor, element, mega menu, menu builder, page,plugin, Post, responsive, visual, widget
 
