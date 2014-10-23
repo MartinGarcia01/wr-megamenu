@@ -9,6 +9,10 @@ WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin 
 == Description ==
 WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin with a Dedicated, Intuitive menu builder. It gives you a complete control at designing and customizing your menu exactly the way you want.
 
+<a href="http://www.woorockets.com/plugins/wr-megamenu/">More details</a>
+
+See <a href="http://demo.woorockets.com/plugins/wr-megamenu/">demo</a>
+
 <h4>Main Features:</h4>
 * <b>Dedicated & Intuitive Menu Builder</b>: Our user-friendly menu builder will take away the hassles that come with Wordpress default menu configuration panel.
 * <b>Fully Responsive</b>: All screen sizes and mobile devices are supported. A must-have feature for your menu in this golden age of mobile and big screens.
