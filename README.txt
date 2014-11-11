@@ -1,4 +1,4 @@
-=== WR Mega Menu ===
+=== Mega Menu by WooRockets.com ===
 
 Contributors: woorockets
 
