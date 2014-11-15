@@ -16,7 +16,7 @@
  * @package  WR_Library
  * @since    1.0.0
  */
-class WR_MM_Form {
+class WR_Megamenu_Form {
 	/**
 	 * Array of instantiated class object.
 	 *
@@ -60,16 +60,16 @@ class WR_MM_Form {
 	protected $text_domain = WR_LIBRARY_TEXTDOMAIN;
 
 	/**
-	 * Instantiate a WR_MM_Form object then return.
+	 * Instantiate a WR_Megamenu_Form object then return.
 	 *
 	 * @param   string  $form_id  An unique string to identify object instance.
 	 * @param   array   $fields   Form fields declaration.
 	 *
-	 * @return  WR_MM_Form
+	 * @return  WR_Megamenu_Form
 	 */
 	public static function get_instance( $form_id, $fields = array() ) {
 		if ( ! isset( $instances[ $form_id ] ) ) {
-			$instances[ $form_id ] = new WR_MM_Form( $form_id, $fields );
+			$instances[ $form_id ] = new WR_Megamenu_Form( $form_id, $fields );
 		}
 
 		return $instances[ $form_id ];
@@ -443,7 +443,7 @@ class WR_MM_Form {
 			}
 
 			// Instantiate field renderer
-			$field = WR_Form_Field::get_instance( $field_attrs );
+			$field = WR_Megamenu_Form_Field::get_instance( $field_attrs );
 
 			if ( empty( $tab_id ) ) {
 				if ( empty( $accordion_id ) ) {

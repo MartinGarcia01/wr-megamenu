@@ -42,6 +42,19 @@ class WR_Megamenu_Plugin {
 		//
 		if ( is_admin() ){
 			$mega_menu = new WR_Megamenu_Core_Backend();
+
+			// Insert WooRockets banner
+			global $pagenow;
+			$post_type = '';
+			if ( ( $pagenow == 'post-new.php' ) && ( isset( $_REQUEST['post_type'] ) ) ) {
+				$post_type = $_REQUEST['post_type'];
+			}
+			elseif ( ( $pagenow == 'post.php' ) && ( isset( $_REQUEST['post'] ) ) ) {
+				$post_type = get_post_type( $_REQUEST['post'] );
+			}
+			if ( $post_type == 'wr_megamenu_profile' ) {
+				self::insert_banner();
+			}
 		} else {
 			// Process menu frontend
 			$frontend = new WR_Megamenu_Core_Frontend();
@@ -82,6 +95,24 @@ class WR_Megamenu_Plugin {
 		$plugins[] = WR_MEGAMENU_IDENTIFIED_NAME;
 
 		return $plugins;
+	}
+
+	/**
+	 * Insert WooRockets banner.
+	 * 
+	 * @return void
+	 */
+	public static function insert_banner() {
+		$banner1 = '<img width=\"278\" height=\"156\" src=\"' . WR_MEGAMENU_ROOT_URL . 'assets/woorockets/images/banners/ContactForm_S.jpg' . '\" alt=\"Contact Form\" />';
+		$link1 = '<a style=\"display: block; margin: 0px 1px 20px 1px; line-height: 0;\" href=\"http://www.woorockets.com/plugins/wr-contactform/?utm_source=WR%20MM%20edit%20page%20rightcolumn&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins\">' . $banner1 . '</a>';
+		$banner2 = '<img width=\"278\" height=\"156\" src=\"' . WR_MEGAMENU_ROOT_URL . 'assets/woorockets/images/banners/PageBuilder_S.jpg' . '\" alt=\"Page Builder\" />';
+		$link2 = '<a style=\"display: block; margin: 0px 1px 20px 1px; line-height: 0;\" href=\"http://www.woorockets.com/plugins/wr-pagebuilder/?utm_source=WR%20MM%20edit%20page%20rightcolumn&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins\">' . $banner2 . '</a>';
+		$banner3 = '<img width=\"278\" height=\"156\" src=\"' . WR_MEGAMENU_ROOT_URL . 'assets/woorockets/images/banners/Corsa_S.jpg' . '\" alt=\"Corsa\" />';
+		$link3 = '<a style=\"display: block; margin: 0px 1px 20px 1px; line-height: 0;\" href=\"http://www.woorockets.com/themes/corsa/?utm_source=WR%20MM%20edit%20page%20rightcolumn&utm_medium=banner&utm_campaign=Cross%20Promo%20Plugins\">' . $banner3 . '</a>';
+		$script = '
+			$("#side-sortables").append("' . $link1 . $link2 . $link3 . '");
+		';
+		WR_Megamenu_Init_Assets::inline( 'js', $script );
 	}
 
 }

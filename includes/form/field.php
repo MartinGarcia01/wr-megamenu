@@ -16,7 +16,7 @@
  * @package  WR_Library
  * @since    1.0.0
  */
-class WR_Form_Field {
+class WR_Megamenu_Form_Field {
 	/**
 	 * Array of instantiated object.
 	 *
@@ -103,7 +103,7 @@ class WR_Form_Field {
 	 * @param   array  $config  Field declaration.
 	 * @param   array  $merge   Array of property should be merged.
 	 *
-	 * @return  WR_Form_Field
+	 * @return  WR_Megamenu_Form_Field
 	 */
 	public static function get_instance( $config, $merge = null ) {
 		// Generate object id

@@ -16,7 +16,7 @@
 * @package  WR_Library
 * @since    1.0.0
 */
-class WR_Form_Field_Post_Type extends WR_Form_Field {
+class WR_Megamenu_Form_Field_Post_Type extends WR_Megamenu_Form_Field {
 	/**
 	 * Field type.
 	 *

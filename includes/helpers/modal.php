@@ -354,12 +354,20 @@ class WR_Megamenu_Helpers_Modal
 		$footer = '<div class="jsn-bootstrap3 wr-megamenu-footer">
 				<hr />
 				<div class="pull-left">
-					<a target="_blank" href="http://www.woorockets.com/wr-megamenu">' . __( 'WR MegaMenu', WR_MEGAMENU_TEXTDOMAIN ) . '</a> by 
-					<a target="_blank" href="http://www.woorockets.com/">' . __( 'WooRockets.com', WR_MEGAMENU_TEXTDOMAIN ) . '</a>
+					<div>
+						<a target="_blank" href="http://www.woorockets.com/wr-megamenu">' . __( 'WR MegaMenu', WR_MEGAMENU_TEXTDOMAIN ) . '</a> by 
+						<a target="_blank" href="http://www.woorockets.com/">' . __( 'WooRockets.com', WR_MEGAMENU_TEXTDOMAIN ) . '</a>
+					</div>
+					<div>
+						<a target="_blank" href="http://www.woorockets.com/docs/wr-megamenu/">' . __( 'Documentation', WR_MEGAMENU_TEXTDOMAIN ) . '</a> |
+						<a target="_blank" href="http://www.woorockets.com/forum/">' . __( 'Support', WR_MEGAMENU_TEXTDOMAIN ) . '</a>
+					</div>
 				</div>
 				<div class="pull-right">
-	 				<a target="_blank" href="http://www.woorockets.com/docs/wr-megamenu/">' . __( 'Documentation', WR_MEGAMENU_TEXTDOMAIN ) . '</a> |
-	 				<a target="_blank" href="http://www.woorockets.com/forum/">' . __( 'Support', WR_MEGAMENU_TEXTDOMAIN ) . '</a>
+					<span class="wr-other-free-plugins-text">Other free plugins</span>
+					<a class="wr-logo-40 contactform" href="http://www.woorockets.com/plugins/wr-contactform/?utm_source=MegaMenu%20Footer&utm_medium=icon&utm_campaign=Cross%20Promo%20Plugins" target="_blank"></a>
+					<a class="wr-logo-40 pagebuilder" href="http://www.woorockets.com/plugins/wr-pagebuilder/?utm_source=MegaMenu%20Footer&utm_medium=icon&utm_campaign=Cross%20Promo%20Plugins" target="_blank"></a>
+					<a class="wr-logo-40 corsa" href="http://www.woorockets.com/themes/corsa/?utm_source=MegaMenu%20Footer&utm_medium=icon&utm_campaign=Cross%20Promo%20Plugins" target="_blank"></a>
 	 			</div>
 				<div class="clearbreak"></div>
 			</div>';
