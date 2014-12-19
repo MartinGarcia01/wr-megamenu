@@ -36,9 +36,11 @@ class WR_Megamenu_Gadget_Duplicate_Profile extends WR_Megamenu_Gadget_Base {
 
 		if ( $id ) {
 			$old_data     = get_post_meta( $profile_id, WR_MEGAMENU_META_KEY, true );
+			$old_themes_options = addslashes( get_post_meta( $profile_id, WR_MEGAMENU_META_KEY . '_themes_options', true ) );
 			$old_location = get_post_meta( $profile_id, '_wr_megamenu_profile_location_', true );
 
 			update_post_meta( $id, WR_MEGAMENU_META_KEY, $old_data );
+			update_post_meta( $id, WR_MEGAMENU_META_KEY . '_themes_options', $old_themes_options );
 			update_post_meta( $id, '_wr_megamenu_profile_location_', $old_location );
 
 			wp_redirect( add_query_arg( array( 'updated' => 1, 'profile_id' => $profile_id ), admin_url( 'edit.php?post_type=wr_megamenu_profile' ) ) );

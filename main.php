@@ -3,7 +3,7 @@
 Plugin Name: WR MegaMenu
 Plugin URI: http://woorockets.com
 Description: WR MegaMenu
-Version: 1.0.2
+Version: 1.0.3
 Author: WooRockets
 Author URI: http://woorockets.com
 License: GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html

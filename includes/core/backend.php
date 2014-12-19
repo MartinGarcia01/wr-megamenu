@@ -586,7 +586,7 @@ JS;
 
 			if ( ! isset( $_GET[WR_MEGAMENU_NONCE] ) || ! wp_verify_nonce( $_GET[WR_MEGAMENU_NONCE], WR_MEGAMENU_NONCE ) ) return;
 
-			$shortcode = mysql_real_escape_string( $_GET['wr_shortcode_name'] );
+			$shortcode = esc_sql( $_GET['wr_shortcode_name'] );
 			$params    = urldecode( $_POST['params'] );
 			$pattern   = '/^\[wr_megamenu_widget/i';
 			if ( ! preg_match( $pattern, trim( $params ) ) ) {

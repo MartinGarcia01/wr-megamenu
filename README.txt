@@ -47,3 +47,10 @@ WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin 
 == More Details ==
 
 For further information, product details, help and tutorials, please visit our website: http://woorockets.com/
+
+== Changelog ==
+
+= 1.0.3 =
+ * Fixed Dupplicate function not works correctly
+ * Fixed Minor bugs
+ * Fixed Notices in preview frame
