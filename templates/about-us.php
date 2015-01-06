@@ -28,9 +28,6 @@
 					<a href="#hot-features" aria-controls="hot-features" role="tab" data-toggle="tab">Hot Features</a>
 				</li>
 				<li role="presentation">
-					<a href="#for-developers" aria-controls="for-developers" role="tab" data-toggle="tab">For Developers</a>
-				</li>
-				<li role="presentation">
 					<a href="#for-translators" aria-controls="for-translators" role="tab" data-toggle="tab">For Translators</a>
 				</li>
 			</ul>
@@ -49,13 +46,7 @@
 						<p>We have created some predefined elements so you can choose the most suitable field and add as many elements as you want for your site without any coding. Interestingly, you can easily search these elements with the Spotlight Filter.</p>
 					</div>
 				</div>
-				<div role="tabpanel" class="tab-pane fade" id="for-developers">
-					<p>If you are going to build Add-on for WR Mega Menu, this document is made for you. This part includes a knowledge base about WR Mega Menu, some basic APIs, and a tutorial to make a simple Add-on with a simple element.</p>
-					<!-- <a class="btn btn-info wr-button" href="http://www.woorockets.com/docs/wr-megamenu-user-manual/" target="_blank">Docs for Developers</a> -->
-					<p>Get our Source Code at Github!</p>
-					<a class="btn btn-info wr-button" href="http://bit.ly/wrmm-about-github" target="_blank">Source Code</a>
-					<p>Having any exciting ideas or improvements for WR Mega Menu to grow our WordPress Community? Drop an email to our WooRockets Astronaut Tony at <a href="mailto:tony@woorockets.com">tony@woorockets.com</a>!</p>
-				</div>
+				
 				<div role="tabpanel" class="tab-pane fade" id="for-translators">
 					<p>If you are reading this, we need your contribution! We appreciate all kinds of support for Translating WR Mega Menu into your language! <a href="http://bit.ly/wrmm-about-transifex" target="_blank">Translate WR Mega Menu</a>.</p>
 				</div>
