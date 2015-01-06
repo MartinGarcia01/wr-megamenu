@@ -32,7 +32,7 @@ WR Mega Menu is a Powerful, Responsive, and User-Oriented WordPress menu plugin 
 * <a href="http://www.woorockets.com/docs/wr-megamenu-user-manual/">Documentation</a>
 
 
-> <h4>Get Involved</h4>
+> <strong>Get Involved</strong>
 
 > * <b>Fork on Github</b>: WR PageBuilder’s source code is published on <a href="http://github.com/WooRockets/WR-MegaMenu">Github</a> and is always updated to latest version. Feel free to use our > plugin to server any of your purposes. Your engagement is always welcome!
 > * <b>Help translate on Transifex</b>: Make WR PageBuilder better for local communities by translating it to different languages. Your help will make it easier for thousands of WordPress users. Sign up and give us a hand <a href="http://www.transifex.com/projects/p/wr-megamenu/">here</a>.
@@ -60,3 +60,7 @@ For further information, product details, help and tutorials, please visit our w
  * Fixed Dupplicate function not works correctly
  * Fixed Minor bugs
  * Fixed Notices in preview frame
+
+= 1.0.4 =
+ * Fixed Some minor bugs
+ * Added About page
