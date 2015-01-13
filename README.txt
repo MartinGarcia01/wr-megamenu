@@ -1,6 +1,6 @@
 === Mega Menu by WooRockets.com ===
 
-Contributors: woorockets, hieudm, tonybui-1
+Contributors: woorockets, hieudm, tonybui-1, son-tung-mr
 Tags: admin, advanced, content, easy to use, editor, element, mega menu, menu builder, page,plugin, Post, responsive, visual, widget
 Requires at least: 3.8
 Tested up to: 4.0
