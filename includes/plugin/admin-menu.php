@@ -38,7 +38,7 @@ class WR_Megamenu_Admin_Menu {
 		// Generate menu title
 		$menu_title = __( 'WR MegaMenu', WR_MEGAMENU_TEXTDOMAIN );
 
-		if ( $plugin['Available_Update'] && ( 'admin.php' != $pagenow || ! isset( $_GET['page'] ) || ! in_array( $_GET['page'], self::$pages ) ) ) {
+		if (isset($plugin['Available_Update']) && $plugin['Available_Update'] && ( 'admin.php' != $pagenow || ! isset( $_GET['page'] ) || ! in_array( $_GET['page'], self::$pages ) ) ) {
 			$menu_title .= " <span class='wr-available-updates update-plugins count-{$plugin['Available_Update']}'><span class='pending-count'>{$plugin['Available_Update']}</span></span>";
 		}
 

@@ -68,3 +68,7 @@ For further information, product details, help and tutorials, please visit our w
 = 1.0.4 =
  * Fixed Some minor bugs
  * Added About page
+
+= 1.0.5 =
+ * Improved Wrap all strings in About us page to translation function
+ * Fixed Network Deactivate function doesn't work
