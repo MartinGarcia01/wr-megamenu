@@ -72,3 +72,8 @@ For further information, product details, help and tutorials, please visit our w
 = 1.0.5 =
  * Improved Wrap all strings in About us page to translation function
  * Fixed Network Deactivate function doesn't work
+
+= 1.0.6 =
+ * Improved About page
+ * Updated code base to compatible with low PHP version
+ * Fixed preview feature
