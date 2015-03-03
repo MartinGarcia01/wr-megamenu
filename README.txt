@@ -77,3 +77,6 @@ For further information, product details, help and tutorials, please visit our w
  * Improved About page
  * Updated code base to compatible with low PHP version
  * Fixed preview feature
+
+= 1.0.7 =
+ * Improved Responsive interface
