@@ -100,3 +100,6 @@ For further information, product details, help and tutorials, please visit our w
 = 1.1.1 =
  * Improved interaction with icon selector
  * Fixed Active menu cannot be saved after elements added
+
+= 1.1.2 =
+ * Changed banners in back-end
