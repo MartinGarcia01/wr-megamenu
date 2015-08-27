@@ -101,3 +101,6 @@ For further information, product details, help and tutorials, please visit our w
 
 = 1.1.2 =
  * Minor changes in back-end setting
+
+= 1.1.3 =
+ * Fix compability on Wordpress 4.3
